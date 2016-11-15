@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR1="`pwd`/proprietary/"
-DIR2="/mnt/temporal"
+DIR2="/mnt/image"
 #DIR2="/media/null/9e7d6fb6-c8f8-4241-b20a-09e2bbcb296d/511Blobsv1.0/system"
 
 #DIR1="/media/null/9e7d6fb6-c8f8-4241-b20a-09e2bbcb296d/511Blobsv1.0/system/"

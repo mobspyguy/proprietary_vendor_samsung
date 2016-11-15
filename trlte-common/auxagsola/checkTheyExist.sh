@@ -7,7 +7,7 @@ FICHEROS=`grep '\\\\' trlte-common-vendor-blobs.mk  | cut -d':' -f1 | cut -c33-`
 
 for i in $FICHEROS; do
 	if [ ! -f $i ]; then
-            echo "no existe el fichero $i"
+            echo "Datei nicht vorhanden: $i"
 	fi
     
 done
