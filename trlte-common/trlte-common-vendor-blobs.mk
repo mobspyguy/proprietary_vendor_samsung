@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0051.0083.hcd:system/vendor/firmware/bcm4358A1_V0051.0083.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd:system/vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd \
     vendor/samsung/trlte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/trlte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
+    vendor/samsung/trlte-common/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/trlte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/trlte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/trlte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -312,9 +312,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/etc/H16US_imx240_module_info.xml:system/etc/H16US_imx240_module_info.xml \
     vendor/samsung/trlte-common/proprietary/etc/firmware/H16UL_s5k2p2xx_module_info.xml:system/etc/firmware/H16UL_s5k2p2xx_module_info.xml \
     vendor/samsung/trlte-common/proprietary/etc/firmware/H16US_imx240_module_info.xml:system/etc/firmware/H16US_imx240_module_info.xml \
-    vendor/samsung/trlte-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/samsung/trlte-common/proprietary/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
     vendor/samsung/trlte-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/trlte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/samsung/trlte-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/trlte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -384,13 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/samsung/trlte-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/trlte-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/trlte-common/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/trlte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
@@ -411,7 +404,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/trlte-common/proprietary/lib/hw/nfc_nci.apq8084.so:system/lib/hw/nfc_nci.apq8084.so \
-    vendor/samsung/trlte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
