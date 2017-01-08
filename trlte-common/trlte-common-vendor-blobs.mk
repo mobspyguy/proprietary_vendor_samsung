@@ -52,15 +52,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/samsung/trlte-common/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A0_V0033.0000.hcd:system/vendor/firmware/bcm4358A0_V0033.0000.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A0_V0033.0000_wisol.hcd:system/vendor/firmware/bcm4358A0_V0033.0000_wisol.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0051.0083.hcd:system/vendor/firmware/bcm4358A1_V0051.0083.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd:system/vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd \
     vendor/samsung/trlte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/trlte-common/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
+    vendor/samsung/trlte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/trlte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/trlte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/trlte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -314,7 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/etc/firmware/H16US_imx240_module_info.xml:system/etc/firmware/H16US_imx240_module_info.xml \
     vendor/samsung/trlte-common/proprietary/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
     vendor/samsung/trlte-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/trlte-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/trlte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/trlte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -375,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -470,9 +466,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
