@@ -18,4 +18,24 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter trlte trlteduos trltespr trltetmo trltevzw trltexx apq8084,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := ConnectivityExt
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/framework/ConnectivityExt.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tcmclient
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/framework/tcmclient.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
 endif

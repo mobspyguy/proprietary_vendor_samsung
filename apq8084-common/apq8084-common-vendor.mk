@@ -41,3 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/apq8084-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/apq8084-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/apq8084-common/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so
+
+PRODUCT_PACKAGES += \
+    ConnectivityExt \
+    tcmclient
