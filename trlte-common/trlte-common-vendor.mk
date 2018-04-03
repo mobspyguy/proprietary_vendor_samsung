@@ -36,15 +36,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/cameradata/cal_data_LSCmaster.bin:system/vendor/cameradata/cal_data_LSCmaster.bin \
     vendor/samsung/trlte-common/proprietary/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
     vendor/samsung/trlte-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/trlte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/trlte-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/samsung/trlte-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
     vendor/samsung/trlte-common/proprietary/etc/H16UL_s5k2p2xx_module_info.xml:system/vendor/etc/H16UL_s5k2p2xx_module_info.xml \
     vendor/samsung/trlte-common/proprietary/etc/H16US_imx240_module_info.xml:system/vendor/etc/H16US_imx240_module_info.xml \
-    vendor/samsung/trlte-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/samsung/trlte-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/samsung/trlte-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/trlte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/vendor/firmware/audience-es705-fw.bin \
@@ -54,8 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/samsung/trlte-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
-    vendor/samsung/trlte-common/proprietary/etc/sec_config:system/vendor/etc/sec_config \
-    vendor/samsung/trlte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/vendor/etc/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/trlte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/vendor/firmware/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/vendor/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
@@ -218,7 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/lib/libvfmClient.so:system/vendor/lib/libvfmClient.so \
     vendor/samsung/trlte-common/proprietary/lib/libvfmtztransport.so:system/vendor/lib/libvfmtztransport.so \
     vendor/samsung/trlte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095.hcd:system/vendor/firmware/bcm4358A1_V0054.0095.hcd \
+    vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095.hcd:system/vendor/firmware/bcm4358A1.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd:system/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd \
     vendor/samsung/trlte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/trlte-common/proprietary/vendor/lib/H16UL_libchromatix_s5k2p2xx_common.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_common.so \
@@ -240,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -251,8 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
@@ -381,9 +377,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/samsung/trlte-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
