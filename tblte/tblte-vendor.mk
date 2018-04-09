@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/netmgrd:system/blobs/spr/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/qcks:system/blobs/spr/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/qmuxd:system/blobs/spr/vendor/bin/qmuxd \
-    vendor/samsung/trlte/proprietary/blobs/spr/lib/libprotobuf-cpp-full.so:system/blobs/spr/lib/libprotobuf-cpp-M.so \
+    vendor/samsung/trlte/proprietary/blobs/spr/lib/libprotobuf-cpp-full.so:system/blobs/spr/vendor/lib/libprotobuf-cpp-full.so \
     vendor/samsung/trlte/proprietary/blobs/spr/lib/libsec-ril.so:system/blobs/spr/vendor/lib/libsec-ril.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libcneapiclient.so:system/blobs/spr/vendor/lib/libcneapiclient.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libconfigdb.so:system/blobs/spr/vendor/lib/libconfigdb.so \
@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/netmgrd:system/blobs/tmo/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/qcks:system/blobs/tmo/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/qmuxd:system/blobs/tmo/vendor/bin/qmuxd \
-    vendor/samsung/trlte/proprietary/blobs/tmo/lib/libprotobuf-cpp-full.so:system/blobs/tmo/lib/libprotobuf-cpp-M.so \
+    vendor/samsung/trlte/proprietary/blobs/tmo/lib/libprotobuf-cpp-full.so:system/blobs/tmo/vendor/lib/libprotobuf-cpp-full.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/lib/libsec-ril.so:system/blobs/tmo/vendor/lib/libsec-ril.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libcneapiclient.so:system/blobs/tmo/vendor/lib/libcneapiclient.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libconfigdb.so:system/blobs/tmo/vendor/lib/libconfigdb.so \
@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/netmgrd:system/blobs/vzw/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/qcks:system/blobs/vzw/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/qmuxd:system/blobs/vzw/vendor/bin/qmuxd \
-    vendor/samsung/trlte/proprietary/blobs/vzw/lib/libprotobuf-cpp-full.so:system/blobs/vzw/lib/libprotobuf-cpp-M.so \
+    vendor/samsung/trlte/proprietary/blobs/vzw/lib/libprotobuf-cpp-full.so:system/blobs/vzw/vendor/lib/libprotobuf-cpp-full.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/vendor/lib/libsec-ril.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libcneapiclient.so:system/blobs/vzw/vendor/lib/libcneapiclient.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libconfigdb.so:system/blobs/vzw/vendor/lib/libconfigdb.so \
@@ -101,7 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/netmgrd:system/blobs/xx/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/qcks:system/blobs/xx/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/qmuxd:system/blobs/xx/vendor/bin/qmuxd \
-    vendor/samsung/trlte/proprietary/blobs/xx/lib/libprotobuf-cpp-full.so:system/blobs/xx/lib/libprotobuf-cpp-M.so \
+    vendor/samsung/trlte/proprietary/blobs/xx/lib/libprotobuf-cpp-full.so:system/blobs/xx/vendor/lib/libprotobuf-cpp-full.so \
     vendor/samsung/trlte/proprietary/blobs/xx/lib/libsec-ril.so:system/blobs/xx/vendor/lib/libsec-ril.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libcneapiclient.so:system/blobs/xx/vendor/lib/libcneapiclient.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libconfigdb.so:system/blobs/xx/vendor/lib/libconfigdb.so \
