@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/bin/olsrd:system/vendor/bin/olsrd \
     vendor/samsung/trlte-common/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/trlte-common/proprietary/bin/radish:system/vendor/bin/radish \
+    vendor/samsung/trlte-common/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/samsung/trlte-common/proprietary/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
     vendor/samsung/trlte-common/proprietary/bin/vcsFPService:system/vendor/bin/vcsFPService \
     vendor/samsung/trlte-common/proprietary/cameradata/F16UL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/F16UL_Isp1_s5k2p2xx.bin \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_net.txt_wisol_r10:system/vendor/etc/wifi/nvram_net.txt_wisol_r10 \
     vendor/samsung/trlte-common/proprietary/etc/wifi/olsrd.conf:system/vendor/etc/wifi/olsrd.conf \
     vendor/samsung/trlte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/trlte-common/proprietary/lib/libagc_max.so:system/vendor/lib/libagc_max.so \
     vendor/samsung/trlte-common/proprietary/lib/H16UL_libTsAe.so:system/vendor/lib/H16UL_libTsAe.so \
     vendor/samsung/trlte-common/proprietary/lib/H16UL_libTsAf.so:system/vendor/lib/H16UL_libTsAf.so \
     vendor/samsung/trlte-common/proprietary/lib/H16UL_libTs_J_Accm.so:system/vendor/lib/H16UL_libTs_J_Accm.so \
@@ -205,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/samsung/trlte-common/proprietary/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/samsung/trlte-common/proprietary/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/samsung/trlte-common/proprietary/lib/libmysound.so:system/vendor/lib/libmysound.so \
     vendor/samsung/trlte-common/proprietary/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/samsung/trlte-common/proprietary/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/trlte-common/proprietary/lib/libsensorhub.so:system/vendor/lib/libsensorhub.so \
