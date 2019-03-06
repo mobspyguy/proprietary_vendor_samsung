@@ -1,5 +1,5 @@
 # Copyright (C) 2014-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/bin/olsrd:system/vendor/bin/olsrd \
     vendor/samsung/trlte-common/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/trlte-common/proprietary/bin/radish:system/vendor/bin/radish \
-    vendor/samsung/trlte-common/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/samsung/trlte-common/proprietary/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
     vendor/samsung/trlte-common/proprietary/bin/vcsFPService:system/vendor/bin/vcsFPService \
     vendor/samsung/trlte-common/proprietary/cameradata/F16UL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/F16UL_Isp1_s5k2p2xx.bin \
@@ -46,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/etc/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/samsung/trlte-common/proprietary/etc/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/samsung/trlte-common/proprietary/etc/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/samsung/trlte-common/proprietary/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/samsung/trlte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/vendor/firmware/audience-es705-fw.bin \

@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/ks:system/blobs/spr/vendor/bin/ks \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/mdm_helper:system/blobs/spr/vendor/bin/mdm_helper \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/mdm_helper_proxy:system/blobs/spr/vendor/bin/mdm_helper_proxy \
-    vendor/samsung/trlte/proprietary/blobs/spr/bin/netmgrd:system/blobs/spr/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/qcks:system/blobs/spr/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/spr/bin/qmuxd:system/blobs/spr/vendor/bin/qmuxd \
     vendor/samsung/trlte/proprietary/blobs/spr/lib/libprotobuf-cpp-full.so:system/blobs/spr/vendor/lib/libprotobuf-cpp-full.so \
@@ -31,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libdsutils.so:system/blobs/spr/vendor/lib/libdsutils.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libidl.so:system/blobs/spr/vendor/lib/libidl.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libmdmdetect.so:system/blobs/spr/vendor/lib/libmdmdetect.so \
-    vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libnetmgr.so:system/blobs/spr/vendor/lib/libnetmgr.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libqcci_legacy.so:system/blobs/spr/vendor/lib/libqcci_legacy.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libqmi.so:system/blobs/spr/vendor/lib/libqmi.so \
     vendor/samsung/trlte/proprietary/blobs/spr/vendor/lib/libqmi_cci.so:system/blobs/spr/vendor/lib/libqmi_cci.so \
@@ -46,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/ks:system/blobs/tmo/vendor/bin/ks \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/mdm_helper:system/blobs/tmo/vendor/bin/mdm_helper \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/mdm_helper_proxy:system/blobs/tmo/vendor/bin/mdm_helper_proxy \
-    vendor/samsung/trlte/proprietary/blobs/tmo/bin/netmgrd:system/blobs/tmo/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/qcks:system/blobs/tmo/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/tmo/bin/qmuxd:system/blobs/tmo/vendor/bin/qmuxd \
     vendor/samsung/trlte/proprietary/blobs/tmo/lib/libprotobuf-cpp-full.so:system/blobs/tmo/vendor/lib/libprotobuf-cpp-full.so \
@@ -57,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libdsutils.so:system/blobs/tmo/vendor/lib/libdsutils.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libidl.so:system/blobs/tmo/vendor/lib/libidl.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libmdmdetect.so:system/blobs/tmo/vendor/lib/libmdmdetect.so \
-    vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libnetmgr.so:system/blobs/tmo/vendor/lib/libnetmgr.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libqcci_legacy.so:system/blobs/tmo/vendor/lib/libqcci_legacy.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libqmi.so:system/blobs/tmo/vendor/lib/libqmi.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libqmi_cci.so:system/blobs/tmo/vendor/lib/libqmi_cci.so \
@@ -72,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/ks:system/blobs/vzw/vendor/bin/ks \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/mdm_helper:system/blobs/vzw/vendor/bin/mdm_helper \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/mdm_helper_proxy:system/blobs/vzw/vendor/bin/mdm_helper_proxy \
-    vendor/samsung/trlte/proprietary/blobs/vzw/bin/netmgrd:system/blobs/vzw/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/qcks:system/blobs/vzw/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/qmuxd:system/blobs/vzw/vendor/bin/qmuxd \
     vendor/samsung/trlte/proprietary/blobs/vzw/lib/libprotobuf-cpp-full.so:system/blobs/vzw/vendor/lib/libprotobuf-cpp-full.so \
@@ -83,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libdsutils.so:system/blobs/vzw/vendor/lib/libdsutils.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libidl.so:system/blobs/vzw/vendor/lib/libidl.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libmdmdetect.so:system/blobs/vzw/vendor/lib/libmdmdetect.so \
-    vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libnetmgr.so:system/blobs/vzw/vendor/lib/libnetmgr.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libqcci_legacy.so:system/blobs/vzw/vendor/lib/libqcci_legacy.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libqmi.so:system/blobs/vzw/vendor/lib/libqmi.so \
     vendor/samsung/trlte/proprietary/blobs/vzw/vendor/lib/libqmi_cci.so:system/blobs/vzw/vendor/lib/libqmi_cci.so \
@@ -98,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/ks:system/blobs/xx/vendor/bin/ks \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/mdm_helper:system/blobs/xx/vendor/bin/mdm_helper \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/mdm_helper_proxy:system/blobs/xx/vendor/bin/mdm_helper_proxy \
-    vendor/samsung/trlte/proprietary/blobs/xx/bin/netmgrd:system/blobs/xx/vendor/bin/netmgrd \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/qcks:system/blobs/xx/vendor/bin/qcks \
     vendor/samsung/trlte/proprietary/blobs/xx/bin/qmuxd:system/blobs/xx/vendor/bin/qmuxd \
     vendor/samsung/trlte/proprietary/blobs/xx/lib/libprotobuf-cpp-full.so:system/blobs/xx/vendor/lib/libprotobuf-cpp-full.so \
@@ -109,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libdsutils.so:system/blobs/xx/vendor/lib/libdsutils.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libidl.so:system/blobs/xx/vendor/lib/libidl.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libmdmdetect.so:system/blobs/xx/vendor/lib/libmdmdetect.so \
-    vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libnetmgr.so:system/blobs/xx/vendor/lib/libnetmgr.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libqcci_legacy.so:system/blobs/xx/vendor/lib/libqcci_legacy.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libqmi.so:system/blobs/xx/vendor/lib/libqmi.so \
     vendor/samsung/trlte/proprietary/blobs/xx/vendor/lib/libqmi_cci.so:system/blobs/xx/vendor/lib/libqmi_cci.so \
